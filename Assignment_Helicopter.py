@@ -43,7 +43,7 @@ P_ind = k * T * vi_hov
 
 # - Profile drag
 # Rotor solidity
-sigma = n_blades * blade_chord / (vtip)
+sigma = n_blades * blade_chord / (np.pi * blade_r)
 
 # Profile drag power
 lambdai = vi_hov / vtip
