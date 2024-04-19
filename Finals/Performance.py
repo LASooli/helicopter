@@ -43,7 +43,7 @@ W = (Wemp + Wfuel)*g # [kg]
 blade_r = 5.345 # [m]
 omega = 213 / blade_r # [rad/s]
 Sfus = 38.585
-CDfus = 0.02
+CDfus = 0.03
 n_blades = 3
 blade_chord = 0.3 # [m]
 # --- Induced velocity
