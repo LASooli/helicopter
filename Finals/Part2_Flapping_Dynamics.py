@@ -86,7 +86,7 @@ class helicopter:
     M = m_emp + m_fuel            # [kg]
     W = M * g                     # [N]
     Sfus = 38.585                 # [m^2]
-    CDfus = 0.02                  # [-]
+    CDfus = 0.03                  # [-]
     R = 5.345                     # [m]
     vtip = 213                    # [m/s]
     omega = vtip / R              # [rad/s]
